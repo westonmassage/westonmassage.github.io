@@ -1,0 +1,96 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	background-image: url('wellness-carafe-towels-white.jpg');
+	background-size: 100%;
+	text-align: center;
+	padding-bottom: 10%;
+	font-size: 110%;
+}
+
+h1 {
+	font-family: "Apple Chancery", serif; 
+	color:#ffffff;
+   text-transform: uppercase;
+   font-size: 220%;
+}
+
+nav a {
+	display: inline-block;
+
+	background: rgba(255, 255, 255, 0.5);
+	text-decoration: none;
+	color:black;
+	width:15%;
+	padding:1%;
+	margin-top: 10%;
+	margin-left: 3%;
+	border-radius: 10px;
+	font-size: 120%
+}
+
+a:hover {
+	background-color: white;
+}
+
+
+.active {
+	background-color: white;
+}
+
+.left {
+	background-color: #efeff3;
+}
+
+section {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+.left img {
+	margin-left: 10%;
+	display: inline-block;
+	width: 30%;
+	padding: 1%;
+	float: left;
+}
+
+.right img {
+	margin-right: 10%;
+	display: inline-block;
+	width: 30%;
+	padding: 1%;
+	float: right;
+}
+
+img {
+	transition-property: width;
+	transition-duration: .2s;
+	transition-delay: .1s;
+	transition-timing-function: linear;
+}
+
+img:hover {
+	width: 35%; 
+}
+
+h2, p {
+	display: inline-block;
+	width: 35%;
+	padding-left: 2%;
+	text-align: justify;
+	line-height: 1.5;
+
+}
+
+
+
+
+
+
+
+
